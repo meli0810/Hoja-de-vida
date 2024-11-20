@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin padding */
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+/* Estilo del encabezado */
+header {
+    background: #AA076B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #61045F, #AA076B);
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    margin: 1%;
+}
+
+/* Contenedor del contenido del encabezado usando Flexbox */
+.header-content {
+    display: flex; /* Activar Flexbox */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Centrar verticalmente los elementos */
+}
+
+/* Estilo del texto en el encabezado */
+.header-text {
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+/* Estilo de la imagen en el encabezado */
+.header-image {
+    width: 130px; /* Ancho de la imagen */
+    height: auto; /* Mantener proporción de la imagen */
+    border-radius: 47%; /* Bordes redondeados para hacerla circular */
+}
+
+/* Estilo del menú de navegación */
+nav ul {
+    list-style-type: none; /* Sin viñetas en la lista */
+    padding: 0; /* Sin padding */
+}
+
+nav ul li {
+    display: inline; /* Mostrar elementos en línea */
+    margin: 0 15px; /* Espaciado entre elementos */
+}
+
+nav ul li a {
+    color: #fff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado en el enlace */
+}
+
+nav ul li a:hover{
+    background-color: #8b4972;
+}
+
+/* Estilo del contenedor principal usando Flexbox */
+main {
+    display: flex; /* Activar Flexbox */
+    flex-direction: column; /* Apilar secciones verticalmente */
+    align-items: center; /* Centrar elementos horizontalmente */
+}
+
+/* Estilo de las secciones */
+section {
+    padding: 20px; /* Espaciado interno */
+    margin: 10px; /* Margen entre secciones */
+    background-color: #fff; /* Fondo blanco para las secciones */
+    border-radius: 5px; /* Bordes redondeados */
+    width: 80%; /* Ancho de las secciones */
+    max-width: 800px; /* Ancho máximo para pantallas grandes */
+}
+
+/* Estilo para los encabezados de las secciones */
+h2 {
+    color: #61045F; /* Color azul para los encabezados */
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center; /* Centrar el texto del pie de página */
+    padding: 10px; /* Espaciado interno */
+    background: #270927; /* Color de fondo oscuro */
+    color: #fff; /* Color del texto en el pie de página */
+}
